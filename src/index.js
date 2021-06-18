@@ -6,6 +6,7 @@ import StateEx from './components/StateEx';
 import Eventhandle from './components/Eventhandle';
 import Form from './components/Form';
 import Formimage from './components/Formimage';
+import ConditionalRender from './components/ConditionalRender';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Eventhandle />
     <Form />
     <Formimage />
+    <ConditionalRender />
   </React.StrictMode>,
   document.getElementById('root')
 );
