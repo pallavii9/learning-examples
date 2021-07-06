@@ -7,6 +7,7 @@ import Eventhandle from './components/Eventhandle';
 import Form from './components/Form';
 import Formimage from './components/Formimage';
 import ConditionalRender from './components/ConditionalRender';
+import Dataform from './components/Dataform';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -20,6 +21,8 @@ ReactDOM.render(
     <Form />
     <Formimage />
     <ConditionalRender />
+    <br></br>
+    <Dataform />
   </React.StrictMode>,
   document.getElementById('root')
 );
